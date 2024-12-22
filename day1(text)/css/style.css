@@ -1,0 +1,31 @@
+#name{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 2.5rem;
+color: chocolate;
+display: inline-block;
+text-shadow: 2px 2px gray;
+
+}
+#info{
+font-size: 1.5rem;
+display: inline-block;
+letter-spacing: 0.1rem;
+text-shadow: 1px 1px red;
+}
+#name span{
+    font-size: 5rem;
+    color: green;
+    text-decoration: underline orange 8px solid;
+}
+.p1{
+    text-align: justify;
+    line-height: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 5rem;
+    letter-spacing: 0.05rem;
+}
+.p1 span{
+    font-size: 1.5rem;
+    color: red;
+    text-decoration: underline blue 3px wavy;
+}
