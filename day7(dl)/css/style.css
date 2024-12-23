@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#toBuy{
+    background-color: gainsboro;
+    box-shadow: -3px 0px gainsboro,3px 0px gainsboro,0px 3px gainsboro,0px -3px gainsboro;
+
+}
+#toBuy h3{
+    background-color: lightcoral;
+    padding:0.5rem 3rem;
+}
+#toBuy ul{
+list-style-position: inside;
+list-style: none;
+margin-left: -2.5rem;
+}
+#toBuy ul li{
+    padding: 0.5rem 1rem;
+    background-color: white;
+    margin-bottom: 0.5rem ;
+}
+#toBuy li:before{
+    content: '\2605';
+    margin-right: 4px;
+    color: cadetblue;
+}
+#toBuy li:hover:before{
+    content: '\2714';
+color: yellow;
+}
+#toBuy li:hover{
+    background-color: aqua;
+    color: red;
+}

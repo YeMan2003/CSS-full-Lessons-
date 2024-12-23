@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container p{
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p:nth-child(1){
+background: lightcoral;
+color: white;
+}
+p:nth-child(2){
+    background: lightslategray;
+    color: white;
+}
+p:nth-child(3){
+    background: chocolate;
+    color: white;
+}
+p:nth-child(4){
+    background: cadetblue;
+    color: white;
+}
+p:nth-child(5){
+    background: blueviolet;
+    color: white;
+}
+p:nth-child(6){
+    background: aqua;
+    color: white;
+}
+p:nth-child(7){
+    background: yellowgreen;
+    color: white;
+}
+p:nth-child(8){
+    background: rosybrown;
+    color: white;
+}

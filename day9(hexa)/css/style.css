@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+.container div h1 span {
+    border: 4px solid black;
+    padding: 0rem 0.5rem;
+    font-size: 3rem;
+    margin-right: 0.5rem;
+    background: black;
+    color: lightblue;
+border-radius: 50%;
+}
+.container div h1{
+     font-size: 2.5rem;
+}
+.container div{
+    width: 15%;
+    margin: 0.6rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.one{
+    background: lightblue;
+}
+.two{
+    background: lightcoral;
+}
+.three{
+    background: lightseagreen;
+}
+p{
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.5rem;
+}

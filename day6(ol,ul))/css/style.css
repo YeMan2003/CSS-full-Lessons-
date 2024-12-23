@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+#toBuy {
+  list-style-type: none;
+}
+#toBuy li {
+  background-color: lightgray;
+  padding: 1rem 7rem;
+  padding-left: 2rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+#toBuy li:before {
+  content: "";
+  background-color: orange;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+#toBuy li:after {
+  content: "";
+}
+#toBuy li:hover {
+  background-color: aqua;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+#toBuy2 {
+  background: lightgrey;
+  padding: 1rem;
+  list-style-type: none;
+  border-radius: 8px;
+  box-shadow: -3px 0px whitesmoke,3px 0px whitesmoke,0px 3px whitesmoke,0px -3px whitesmoke;
+}
+#toBuy2 li{
+    width: 150px;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    counter-increment: li;
+}
+#toBuy2 li:before{
+    content:counter(li);
+    padding: 0.2rem 0.5rem;
+    background-color: lightcoral;
+    margin-right:4px;
+
+}
+#toBuy2 li:after{
+  content: '20';
+  padding: 0.2rem 0.5rem;
+  background-color: lightblue;
+  border-radius: 50px;
+  margin-left: 2rem;
+}
+#toBuy2 li:hover{
+  background-color: indigo;
+  color: yellow;
+}
