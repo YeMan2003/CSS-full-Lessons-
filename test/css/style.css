@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px lightgray,3px 3px lightgray,4px 4px lightgray;
+    margin-bottom: 100px;
+    margin-bottom: 100px;
+    font-size: 45px;
+}
+h1 span{
+    color: red;
+}
+.container{
+    display: flex;
+    
+  
+}
+.card{
+    margin: auto;
+    width: 15%;
+    box-shadow:-3px 0px whitesmoke,3px 0px whitesmoke,0px -3px whitesmoke,0px 3px whitesmoke ;
+    padding: 1.5rem;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+.card p{
+    text-align: justify;
+    hyphens: auto;
+}
+

@@ -1,0 +1,30 @@
+.container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.item{
+    max-width: 33%;
+    /* float: left; */
+    position: relative;
+    margin: 1rem;
+
+}
+.item img{
+    width: 100%;
+}
+.info{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    background: rgba(255,255, 255, 0.4);
+    padding: 0rem 2rem;
+    visibility: hidden;
+    transition: 0.05s;
+}
+.item:hover .info
+{
+visibility: visible;
+}

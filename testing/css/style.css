@@ -1,0 +1,38 @@
+h1{
+text-align: center;
+color: rebeccapurple;
+text-shadow: 2px 2px lightgray,3px 3px lightgray,4px 4px lightgray;
+font-size: 45px;
+margin-bottom: 100px;
+}
+.container,.container2,.container3{
+    display: flex;
+   justify-content: center;
+}
+.container,.container2{
+    margin-bottom: 100px;
+}
+.card{
+    width: 15%;
+    margin: auto;
+    background: white;
+    box-shadow:-3px 0px whitesmoke,3px 0px whitesmoke,0px -3px whitesmoke,0px 3px whitesmoke ;
+    padding: 1.5rem;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    
+}
+.card img{
+width: 100%;
+/* border-radius: 5px; */
+}
+.card p{
+    width: 100%;
+    text-align: justify;
+    hyphens: auto;
+}
+
+
+   
+    
+   
