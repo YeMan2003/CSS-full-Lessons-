@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+}
+#myNav {
+  padding: 1rem 0.5rem;
+  text-align: right;
+}
+#myNav a {
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  color: white;
+  background-color: skyblue;
+  display: inline-block;
+  transform: skew(-15deg);
+  font-size: 1rem;
+  position: relative;
+  border: 1px solid black;
+}
+#myNav a:nth-child(2) {
+  left: -8px;
+}
+#myNav a:nth-child(3) {
+  left: -16px;
+}
+#myNav a:nth-child(4) {
+  left: -24px;
+}
+#myNav a:nth-child(5) {
+  left: -32px;
+}
+#myNav a:nth-child(6){
+    left: -40px;
+}
+#myNav a:hover{
+    background: orange;
+    color: black;
+}
+#myNav a:after{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: orangered;
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    transform: rotate(45deg);
+
+}
+
+#tNav{
+    text-align: right;
+    padding: 1rem 0rem;
+    background: black
+}
+#tNav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    position: relative;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+#tNav a:before{
+    content:'' ;
+    display: inline-block;
+    width: 8px;
+    height: 100%;
+    background: orange;
+position: absolute;
+left: 0px;
+top: 0px;
+border-top-left-radius: 20px;
+border-bottom-right-radius:20px ;
+}
+#tNav a:hover{
+    background: orange;
+    color: black;
+}
